@@ -1,0 +1,9 @@
+const name = 'Ruslan' 
+const surname = 'Alyasin'
+const tun = 'My name is:'
+
+const getCarInfo = (a, b) => {
+  return tun + ' ' + a + ' ' + b
+}
+
+display.log(getCarInfo(name, surname))
